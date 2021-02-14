@@ -1,3 +1,2 @@
 # BoardAndCards
-
-Describe BoardAndCards here.
+Компонент - доска и карточки
