@@ -1,8 +1,10 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import { Board } from "./components/Board";
 import './index.css'
 
-import React from 'react'
-import {render} from 'react-dom'
+const App = () => {
+  return <Board />;
+};
 
-import App from './App'
-
-render(<App/>, document.querySelector('#app'))
+ReactDOM.render(<App />, document.getElementById("app"));
